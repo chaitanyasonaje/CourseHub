@@ -52,8 +52,8 @@ const Header = ({ currentPage, setCurrentPage }) => {
                 <User className="w-4 h-4 text-primary-600" />
               </div>
               <div>
-                <p className="font-medium text-gray-900">Dummy Student</p>
-                <p className="text-xs text-gray-500">dummyStudent123</p>
+                <p className="font-medium text-gray-900">Chaitanya Sonaje</p>
+                <p className="text-xs text-gray-500">chaitanya0205</p>
               </div>
             </div>
             

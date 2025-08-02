@@ -5,8 +5,8 @@ const Course = require('../models/Course');
 const { mockDataService } = require('../utils/mockData');
 const mongoose = require('mongoose');
 
-// Dummy student ID for demo purposes
-const DUMMY_STUDENT_ID = 'dummyStudent123';
+// Student ID for demo purposes
+const DUMMY_STUDENT_ID = 'chaitanya0205';
 
 // @desc    Get current student's enrollments
 // @route   GET /api/enrollments/me

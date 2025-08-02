@@ -172,7 +172,7 @@ course-listing-app/
 ## 🧪 Testing
 
 The application includes:
-- Dummy student ID: `dummyStudent123`
+- Student ID: `chaitanya0205`
 - Sample course data
 - Error handling for edge cases
 

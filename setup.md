@@ -185,8 +185,8 @@ REACT_APP_API_URL=https://your-backend-domain.com/api
 
 ## 🧪 Testing
 
-### Dummy Student
-- Student ID: `dummyStudent123`
+### Demo Student
+- Student ID: `chaitanya0205`
 - Used for all enrollment actions
 - No authentication required for demo
 
