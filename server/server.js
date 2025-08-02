@@ -31,9 +31,14 @@ const limiter = rateLimit({
 });
 app.use('/api/', limiter);
 
-// CORS configuration
+// CORS configuration - Updated to allow deployed frontend
 const corsOptions = {
-  origin: process.env.CORS_ORIGIN || 'http://localhost:3000',
+  origin: [
+    'http://localhost:3000',
+    'https://coursehub24.netlify.app',
+    'https://coursehub-frontend.vercel.app',
+    'https://coursehub.vercel.app'
+  ],
   credentials: true,
   optionsSuccessStatus: 200
 };
@@ -60,7 +65,7 @@ app.get('/api/health', (req, res) => {
 app.get('/', (req, res) => {
   res.status(200).json({
     success: true,
-    message: 'Course Listing API',
+    message: 'CourseHub API',
     version: '1.0.0',
     endpoints: {
       courses: '/api/courses',
