@@ -37,7 +37,8 @@ const corsOptions = {
     'http://localhost:3000',
     'https://coursehub24.netlify.app',
     'https://coursehub-frontend.vercel.app',
-    'https://coursehub.vercel.app'
+    'https://coursehub.vercel.app',
+    'https://course-hub-three.vercel.app'
   ],
   credentials: true,
   optionsSuccessStatus: 200
