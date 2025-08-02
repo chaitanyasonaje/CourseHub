@@ -1,0 +1,16 @@
+# Node modules
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Logs
+logs
+*.log
+
+# dotenv environment files
+.env
+.env.local
+
+# Build output
+dist/
+build/
